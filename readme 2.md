@@ -1,0 +1,8 @@
+使用的套件版本跟環境可以參考requirement.txt
+我的筆電是MacBook M1
+首先用verify.cc 將root數據數出成Map資料和variable
+可以用dist_classification.py 針對區域極值間的距離，進行分類
+用create_gamma_map 產生圖片區域21x21的npz檔案
+使用CNN-2D_21x21.py 即可以跑模型
+
+P.s 21x21有把粒子間中心點放置在圖片的中心，如果要把27x50直接丟模型，就不用前置處理了
